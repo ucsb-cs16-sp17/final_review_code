@@ -42,9 +42,7 @@ The same thing we applied above works the other way as well. Example:
 
 1100 -> C
 
-1100 0100 1000
-
-0xC48
+1100 0100 1000 -> 0xC48
 
 What if you are given 110011?
 
