@@ -11,16 +11,23 @@ First we need to look at how many bits are needed to represent a digit in hexide
 An example: 
 
 0x39:
+
 first convert 9 -> 1001
+
 then convert 3 -> 0011
+
 then put them together: 0x39 -> 0011 1001
 
 This works for numbers of any size:
 
 0x5AC
+
 C -> 1100
+
 A -> 1010
+
 5 -> 0101
+
 0x5AC -> 0101 1010 1100
 
 # Converting bin to hex
@@ -28,18 +35,30 @@ A -> 1010
 The same thing we applied above works the other way as well. Example:
 
 1100 0100 1000
+
 1000 -> 8
+
 0100 -> 4
+
 1100 -> C
+
 1100 0100 1000
+
 0xC48
 
 What if you are given 110011?
+
 Break up the first part:
+
 0011 -> 3
+
 When you get to the second part (11), fill in the front with 0s:
+
 11 -> 0011
+
 Then conver to hex:
+
 0011 -> 3
+
 11 0011 -> 0x33
 
